@@ -1,0 +1,358 @@
+import type { QuizQuestion } from '@/types';
+
+export const QUIZ_QUESTIONS: QuizQuestion[] = [
+  {
+    id: 'q1',
+    question: "What is the name of Luffy's signature attack in the East Blue?",
+    options: ['Gomu Gomu no Pistol', 'Gomu Gomu no Bazooka', 'Gomu Gomu no Gatling', 'Gear Second'],
+    correctIndex: 0,
+    explanation: "Gomu Gomu no Pistol is Luffy's first and most basic attack — a stretched rubber punch.",
+    episodeRange: [1, 50],
+    difficulty: 'easy',
+    category: 'Combat',
+  },
+  {
+    id: 'q2',
+    question: "What is Zoro's dream?",
+    options: ['To find the One Piece', 'To be the greatest swordsman in the world', 'To find All Blue', 'To become a Marine'],
+    correctIndex: 1,
+    explanation: "Zoro's lifelong dream is to become the World's Greatest Swordsman, a promise he made to his late rival Kuina.",
+    episodeRange: [1, 50],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+  {
+    id: 'q3',
+    question: "What is the name of the sea chart that Nami draws?",
+    options: ['Sky Atlas', 'Log Pose', "Nami's Route Map", 'Grand Chart'],
+    correctIndex: 1,
+    explanation: "The Log Pose is a special compass needed to navigate the Grand Line. It records island magnetic signatures.",
+    episodeRange: [1, 80],
+    difficulty: 'easy',
+    category: 'World',
+  },
+  {
+    id: 'q4',
+    question: "Who trained Luffy to use Haki during the 2-year time skip?",
+    options: ['Shanks', 'Rayleigh', 'Garp', 'Whitebeard'],
+    correctIndex: 1,
+    explanation: "Silvers Rayleigh, the Dark King and first mate of Roger Pirates, trained Luffy on Rusukaina island.",
+    episodeRange: [1, 520],
+    difficulty: 'medium',
+    category: 'Story',
+  },
+  {
+    id: 'q5',
+    question: "What happens when Luffy touches salt water?",
+    options: ['He becomes stronger', 'He loses his powers', 'He can swim', 'Nothing'],
+    correctIndex: 1,
+    explanation: "Like all Devil Fruit users, Luffy loses his strength and ability to swim in sea water — a fatal weakness.",
+    episodeRange: [1, 50],
+    difficulty: 'easy',
+    category: 'Powers',
+  },
+  {
+    id: 'q6',
+    question: "What is the name of the crew's second ship after the Going Merry?",
+    options: ['Marine Battleship', 'Thousand Sunny', 'Mini Merry II', 'The Polar Tang'],
+    correctIndex: 1,
+    explanation: "The Thousand Sunny, built by Iceberg and Franky, replaced the Going Merry after its tearful farewell at Enies Lobby.",
+    episodeRange: [1, 325],
+    difficulty: 'easy',
+    category: 'Ships',
+  },
+  {
+    id: 'q7',
+    question: "What is the significance of the letter D in characters' names like Luffy, Roger, and Ace?",
+    options: ['It means Dragon', 'It is the Will of D — a mystery bloodline', 'It stands for Devil', 'It is a marine rank'],
+    correctIndex: 1,
+    explanation: "The Will of D is one of the greatest mysteries in One Piece. Those who bear it are natural enemies of the World Nobles.",
+    episodeRange: [1, 200],
+    difficulty: 'medium',
+    category: 'Lore',
+  },
+  {
+    id: 'q8',
+    question: "What is the bounty of Luffy at the start of his pirate career?",
+    options: ['10,000,000 Beli', '30,000,000 Beli', '100,000,000 Beli', '50,000,000 Beli'],
+    correctIndex: 1,
+    explanation: "Luffy's first bounty was 30,000,000 Beli, issued after defeating Arlong and his crew of Fishmen.",
+    episodeRange: [1, 50],
+    difficulty: 'easy',
+    category: 'Bounties',
+  },
+  {
+    id: 'q9',
+    question: "Who is the Surgeon of Death?",
+    options: ['Dr. Vegapunk', 'Crocodile', 'Trafalgar Law', 'Tony Tony Chopper'],
+    correctIndex: 2,
+    explanation: "Trafalgar D. Water Law earned the epithet Surgeon of Death for his terrifying Ope Ope no Mi abilities.",
+    episodeRange: [1, 500],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+  {
+    id: 'q10',
+    question: "What does Whitebeard call himself?",
+    options: ['The Strongest Man in the World', 'The King of the New World', 'The Pirate King', 'The Emperor of the Sea'],
+    correctIndex: 0,
+    explanation: "Edward Newgate, known as Whitebeard, held the title of the Strongest Man in the World until his death at Marineford.",
+    episodeRange: [1, 480],
+    difficulty: 'medium',
+    category: 'Characters',
+  },
+  {
+    id: 'q11',
+    question: "What is the treasure hidden at Laugh Tale?",
+    options: ['All the gold in the world', 'The One Piece', 'The Ancient Weapons', 'The True History'],
+    correctIndex: 1,
+    explanation: "Roger called the treasure left behind by Joy Boy 'One Piece' — its true nature remains the ultimate mystery.",
+    episodeRange: [1, 1000],
+    difficulty: 'easy',
+    category: 'Lore',
+  },
+  {
+    id: 'q12',
+    question: "Who founded the Baroque Works organization?",
+    options: ['Buggy', 'Doflamingo', 'Crocodile', 'Blackbeard'],
+    correctIndex: 2,
+    explanation: "Crocodile (Mr. 0) founded and led Baroque Works, using it as a cover to take over the kingdom of Alabasta.",
+    episodeRange: [1, 100],
+    difficulty: 'medium',
+    category: 'Organizations',
+  },
+  {
+    id: 'q13',
+    question: "What form allows Luffy to surpass his human limits with steam?",
+    options: ['Gear 1', 'Gear Second', 'Gear Third', 'Gear Fourth'],
+    correctIndex: 1,
+    explanation: "Gear Second pumps blood at superhuman speed, converting Luffy's body into a steam-powered engine that massively boosts speed and power.",
+    episodeRange: [1, 280],
+    difficulty: 'medium',
+    category: 'Powers',
+  },
+  {
+    id: 'q14',
+    question: "What is Robin's dream?",
+    options: ['To draw a map of the world', 'To discover the true history of the Void Century on the Rio Poneglyph', 'To become an archaeologist at a university', 'To find her mother'],
+    correctIndex: 1,
+    explanation: "Nico Robin's dream is to read the Rio Poneglyph and uncover the True History of the World — forbidden knowledge that the World Government suppresses.",
+    episodeRange: [1, 200],
+    difficulty: 'medium',
+    category: 'Characters',
+  },
+  {
+    id: 'q15',
+    question: "How many Road Poneglyphs are needed to find Laugh Tale?",
+    options: ['1', '2', '4', '9'],
+    correctIndex: 2,
+    explanation: "Four Road Poneglyphs exist across the world. When their locations are combined, they triangulate Laugh Tale's position.",
+    episodeRange: [1, 800],
+    difficulty: 'medium',
+    category: 'Lore',
+  },
+  {
+    id: 'q16',
+    question: "Who killed Ace at Marineford?",
+    options: ['Kizaru', 'Akainu', 'Blackbeard', 'Sengoku'],
+    correctIndex: 1,
+    explanation: "Fleet Admiral Akainu used his Magma Magma Fruit to mortally wound Ace who shielded Luffy.",
+    episodeRange: [1, 483],
+    difficulty: 'easy',
+    category: 'Story',
+  },
+  {
+    id: 'q17',
+    question: "What is the name of the legendary pirate who found the One Piece?",
+    options: ['Whitebeard', 'Gol D. Roger', 'Rocks D. Xebec', 'Joy Boy'],
+    correctIndex: 1,
+    explanation: "Gol D. Roger, the King of the Pirates, conquered the Grand Line and found the legendary treasure — the One Piece.",
+    episodeRange: [1, 400],
+    difficulty: 'easy',
+    category: 'Story',
+  },
+  {
+    id: 'q18',
+    question: "What is Sanji's Dream?",
+    options: ['To be the best chef in the world', 'To find All Blue — a sea where all ocean fish coexist', 'To cook for the Pirate King', 'To defeat Zoro'],
+    correctIndex: 1,
+    explanation: "Sanji dreams of finding the All Blue, a legendary sea where fish from all four seas gather in one location.",
+    episodeRange: [1, 80],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+  {
+    id: 'q19',
+    question: "What year (in-universe) did the Great Age of Pirates begin?",
+    options: ['When Shanks got his scar', 'When Roger was executed and revealed the One Piece exists', 'When Whitebeard declared a Yonko war', 'When the Marines were founded'],
+    correctIndex: 1,
+    explanation: "When Gol D. Roger was executed and declared the One Piece exists, it sparked the Great Age of Pirates — triggering pirates worldwide.",
+    episodeRange: [1, 50],
+    difficulty: 'easy',
+    category: 'Story',
+  },
+  {
+    id: 'q20',
+    question: "What is Nami's bounty after the time skip?",
+    options: ['16,000,000 Beli', '66,000,000 Beli', '366,000,000 Beli', '1,000,000,000 Beli'],
+    correctIndex: 1,
+    explanation: "After the time skip, Nami's bounty was raised to 66,000,000 Beli.",
+    episodeRange: [1, 600],
+    difficulty: 'hard',
+    category: 'Bounties',
+  },
+  {
+    id: 'q21',
+    question: "What is the name of Wano Country's capital city?",
+    options: ['Flower Capital', 'Wano City', 'Kuri', 'Onigashima'],
+    correctIndex: 0,
+    explanation: "The Flower Capital (Hakumai) is the main city of Wano Country, ruled by the Kozuki clan and later terrorized by Orochi and Kaido.",
+    episodeRange: [1, 900],
+    difficulty: 'medium',
+    category: 'World',
+  },
+  {
+    id: 'q22',
+    question: "Who is Monkey D. Luffy's grandfather?",
+    options: ['Dragon', 'Garp', 'Sengoku', 'Rayleigh'],
+    correctIndex: 1,
+    explanation: "Vice Admiral Monkey D. Garp, also called the Hero of the Marines, is Luffy's grandfather and the man who raised him.",
+    episodeRange: [1, 312],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+  {
+    id: 'q23',
+    question: "What is the real name of Gear 5?",
+    options: ['Gomu Gomu no Awakening', 'Nika Form', 'Hito Hito no Mi Model Nika Awakened', 'Sun God Release'],
+    correctIndex: 2,
+    explanation: "Gear 5 is the awakening of the Hito Hito no Mi, Model: Nika — the legendary fruit of the Sun God Nika.",
+    episodeRange: [1, 1071],
+    difficulty: 'hard',
+    category: 'Powers',
+  },
+  {
+    id: 'q24',
+    question: "What organization secretly runs the World Government from the shadows?",
+    options: ['CP0', 'Im-sama and the Five Elders', 'The Rocks Pirates', 'The World Nobles'],
+    correctIndex: 1,
+    explanation: "Im-sama sits on the Empty Throne and commands the Five Elders (Gorosei) who truly control the World Government.",
+    episodeRange: [1, 908],
+    difficulty: 'hard',
+    category: 'Organizations',
+  },
+  {
+    id: 'q25',
+    question: "What is Chopper's bounty for most of the series?",
+    options: ['100 Beli', '50 Beli', '1,000 Beli', '100,000 Beli'],
+    correctIndex: 1,
+    explanation: "Chopper's bounty was 50 Beli for most of the series because Marines assumed he was just a pet — much to his frustration.",
+    episodeRange: [1, 600],
+    difficulty: 'medium',
+    category: 'Bounties',
+  },
+  {
+    id: 'q26',
+    question: "What is the name of the island where Luffy trains for 2 years?",
+    options: ['Kuraigana Island', 'Rusukaina', 'Amazon Lily', 'Impel Down'],
+    correctIndex: 1,
+    explanation: "Luffy trained with Rayleigh on the island of Rusukaina, a fierce island filled with powerful animals.",
+    episodeRange: [1, 516],
+    difficulty: 'medium',
+    category: 'Story',
+  },
+  {
+    id: 'q27',
+    question: "Who is the Captain of the Heart Pirates?",
+    options: ['Luffy', 'Trafalgar Law', 'Bepo', 'Kid'],
+    correctIndex: 1,
+    explanation: "Trafalgar D. Water Law is the captain of the Heart Pirates, one of the Worst Generation pirates.",
+    episodeRange: [1, 500],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+  {
+    id: 'q28',
+    question: "What is the ultimate goal of Dr. Vegapunk?",
+    options: ['To create the ultimate weapon', 'To understand all knowledge in the world', 'To defeat the World Government', 'To find the One Piece'],
+    correctIndex: 1,
+    explanation: "Dr. Vegapunk declared his dream to understand all knowledge in the world — an impossible but noble goal.",
+    episodeRange: [1, 1090],
+    difficulty: 'hard',
+    category: 'Characters',
+  },
+  {
+    id: 'q29',
+    question: "What is the name of Shanks' crew?",
+    options: ['The Red Hair Pirates', 'The Scarlet Pirates', 'The Red Flag Pirates', 'The Ruby Pirates'],
+    correctIndex: 0,
+    explanation: "Shanks leads the Red Hair Pirates, one of the Four Emperors (Yonko) crews.",
+    episodeRange: [1, 100],
+    difficulty: 'easy',
+    category: 'Organizations',
+  },
+  {
+    id: 'q30',
+    question: "What fruit allows its user to turn their body and environment into mochi?",
+    options: ['Gomu Gomu', 'Mochi Mochi', 'Yuki Yuki', 'Bisu Bisu'],
+    correctIndex: 1,
+    explanation: "The Mochi Mochi no Mi is used by Charlotte Katakuri. When awakened, it allows him to turn his surroundings into mochi.",
+    episodeRange: [1, 880],
+    difficulty: 'medium',
+    category: 'Powers',
+  },
+  {
+    id: 'q31',
+    question: "What is the name of the prison known as the Underwater Prison at the bottom of the sea?",
+    options: ['Enies Lobby', 'Impel Down', 'Marine HQ', 'Level 6'],
+    correctIndex: 1,
+    explanation: "Impel Down is the World Government's maximum security prison located underwater in the Calm Belt.",
+    episodeRange: [1, 450],
+    difficulty: 'easy',
+    category: 'World',
+  },
+  {
+    id: 'q32',
+    question: "Who is Luffy's father?",
+    options: ['Monkey D. Garp', 'Monkey D. Dragon', 'Gol D. Roger', 'Shanks'],
+    correctIndex: 1,
+    explanation: "Monkey D. Dragon, the most wanted criminal in the world and Revolutionary Army leader, is Luffy's father.",
+    episodeRange: [1, 400],
+    difficulty: 'easy',
+    category: 'Characters',
+  },
+];
+
+/**
+ * Returns questions safe to show for a user who has watched up to maxEpisode.
+ * A question is eligible only when the user has reached the UPPER bound of its
+ * episodeRange — i.e. all story content referenced by that question has aired.
+ */
+export function getQuestionsForEpisode(maxEpisode: number): QuizQuestion[] {
+  const eligible = QUIZ_QUESTIONS.filter(q => q.episodeRange[1] <= maxEpisode);
+  const shuffled = [...eligible].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(10, shuffled.length));
+}
+
+/** How many questions are still locked beyond the user's current progress */
+export function getLockedCount(maxEpisode: number): number {
+  return QUIZ_QUESTIONS.filter(q => q.episodeRange[1] > maxEpisode).length;
+}
+
+/** Next episode milestone that will unlock at least one new question */
+export function getNextUnlockEpisode(maxEpisode: number): number | null {
+  const locked = QUIZ_QUESTIONS
+    .filter(q => q.episodeRange[1] > maxEpisode)
+    .map(q => q.episodeRange[1])
+    .sort((a, b) => a - b);
+  return locked[0] ?? null;
+}
+
+/** Breakdown of unlocked questions by category */
+export function getCategoryBreakdown(maxEpisode: number): Record<string, number> {
+  const eligible = QUIZ_QUESTIONS.filter(q => q.episodeRange[1] <= maxEpisode);
+  return eligible.reduce<Record<string, number>>((acc, q) => {
+    acc[q.category] = (acc[q.category] || 0) + 1;
+    return acc;
+  }, {});
+}
